@@ -1,5 +1,7 @@
 🛒 Landing Page E-commerce
-🚀 👉 Projeto online: https://wendsoncardoso.github.io/Wendshop-Ecommerce/
+🚀 👉 Projeto online:
+
+https://wendsoncardoso.github.io/Wendshop-Ecommerce/
 
 Landing page de e-commerce moderna e responsiva, focada em performance, usabilidade e experiência do usuário.
 
