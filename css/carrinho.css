@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+}
+
+/* HEADER */
+.top {
+ background-color: rgb(54, 54, 54);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ITEM */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.cart-item:hover {
+  transform: translateY(-4px);
+}
+
+.cart-item img {
+  width: 90px;
+  border-radius: 10px;
+}
+
+.info {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.remove {
+  color: #ff3300;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.controls button {
+  background: #ff6600;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* RESUMO */
+.summary {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  flex: 1;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.total {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.checkout {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(to right, #ff6600, #ff3300);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* EMPTY */
+.empty {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 400px;
+  animation: fadeIn 0.4s ease;
+}
+
+.modal-content i {
+  font-size: 50px;
+  color: #00c896;
+}
+
+.modal-content h2 {
+  margin: 10px 0;
+}
+
+.modal-content button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  border: none;
+  background: #ff6600;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* RESPONSIVO */
+@media(max-width: 900px){
+  .container {
+    flex-direction: column;
+  }
+}

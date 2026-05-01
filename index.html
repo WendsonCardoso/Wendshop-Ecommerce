@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WendShop | loja online</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+<div class="overlay" id="overlay"></div>
+
+<div class="cabecario">
+
+<div class="logo">
+  <a href="">
+    <h2>WendShop</h2>
+  </a>
+</div>
+
+<div class="busca">
+<input type="text" placeholder="O que você procura?">
+<button><i class="fas fa-search"></i></button>
+</div>
+
+<div class="acoes">
+
+<div class="menu-toggle" id="menu-toggle">☰</div>
+
+<div class="login dropdown" id="login">
+<a href="#"><i class="fas fa-user"></i>Login</a>
+<ul class="submenu">
+<li><a href="#">Minha conta</a></li>
+<li><a href="#">Pedidos</a></li>
+<li><a href="#">Sair</a></li>
+</ul>
+</div>
+
+<a href="carrinho.html" class="carrinho" id="carrinho" target="_blank">
+<i class="fas fa-shopping-cart"></i>Carrinho
+<span class="badge">0</span>
+</a>
+
+</div>
+</div>
+
+<div class="menu" id="menu">
+<ul>
+
+<li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+<li><a href="#"><i class="fas fa-envelope"></i>Contato</a></li>
+
+<li class="dropdown">
+<a href="#"><i class="fas fa-box"></i>Produtos <i class="fas fa-chevron-down"></i></a>
+<ul class="submenu">
+<li><a href="#"><i class="fas fa-t-shirt"></i>Masculino</a></li>
+<li><a href="#"><i class="fas fa-person-dress"></i>Feminino</a></li>
+<li><a href="#"><i class="fas fa-shoe-prints"></i>Calçados</a></li>
+</ul>
+</li>
+
+<li class="dropdown">
+<a href="#"><i class="fas fa-tags"></i>Ofertas <i class="fas fa-chevron-down"></i></a>
+<ul class="submenu">
+<li><a href="#"><i class="fas fa-shipping-fast"></i>Frete grátis acima de 50R$</a></li>
+<li><a href="#"><i class="fas fa-child"></i>Infantil 30% off</a></li>
+<li><a href="#"><i class="fas fa-boxes-stacked"></i>Menor preço em atacado</a></li>
+</ul>
+</li>
+
+<li class="dropdown">
+<a href="#"><i class="fas fa-star"></i>Novidades <i class="fas fa-chevron-down"></i></a>
+<ul class="submenu">
+<li><a href="#"><i class="fas fa-futbol"></i>Camisas de time</a></li>
+<li><a href="#"><i class="fas fa-egg"></i>Especial Páscoa</a></li>
+<li><a href="#"><i class="fas fa-fire"></i>Preços imbatíveis</a></li>
+</ul>
+</li>
+
+</ul>
+</div>
+
+<div class="banner">
+<h2>Promoções até 50% OFF</h2>
+</div>
+
+<div class="carrossel">
+
+  <div class="slides">
+    <img src="imagens/Banner1.png" class="slide active">
+    <img src="imagens/Banner2.png" class="slide">
+    <img src="imagens/Banner3.png" class="slide">
+  </div>
+
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+
+</div>
+
+<section class="destaques">
+  <div class="destaques-header">
+    <span class="tag">🔥 Tendência</span>
+    <h2>Destaques da Semana</h2>
+    <p>Os produtos mais desejados, com melhor avaliação e ofertas imperdíveis selecionados especialmente para você.</p>
+  </div>
+</section>
+
+
+<div class="produtos">
+
+<div class="produto1">
+<img src="imagens/camisa.png">
+<h3>Camisa Dry Fit</h3>
+<p class="preco">R$59,99</p>
+
+<button class="btn-carrinho">
+  <i class="fas fa-cart-plus"></i>
+  <span>Adicionar</span>
+</button>
+
+</div>
+
+<div class="produto1">
+<img src="imagens/chuteira.png">
+<h3>Chuteira</h3>
+<p class="preco">R$79,99</p>
+
+<button class="btn-carrinho">
+  <i class="fas fa-cart-plus"></i>
+  <span>Adicionar</span>
+</button>
+
+</div>
+
+<div class="produto1">
+<img src="imagens/sapato.png">
+<h3>Sapato</h3>
+<p class="preco">R$99,99</p>
+
+<button class="btn-carrinho">
+  <i class="fas fa-cart-plus"></i>
+  <span>Adicionar</span>
+</button>
+
+</div>
+
+<div class="produto1">
+<img src="imagens/vestido.png">
+<h3>Vestido</h3>
+<p class="preco">R$39,99</p>
+
+<button class="btn-carrinho">
+  <i class="fas fa-cart-plus"></i>
+  <span>Adicionar</span>
+</button>
+
+</div>
+
+</div>
+</section>
+<section class="landing">
+
+  <div class="landing-content">
+
+    <div class="landing-text">
+      <span class="tag">🔥 Oferta Limitada</span>
+
+      <h1>Estilo, conforto e preço que cabe no seu bolso</h1>
+
+      <p>
+        Descubra os produtos mais vendidos da semana com qualidade premium,
+        entrega rápida e garantia de satisfação.
+      </p>
+
+      <div class="landing-buttons">
+        <a href="#" class="btn-primary">Comprar agora</a>
+      </div>
+    </div>
+
+    <div class="landing-image">
+      <img src="imagens/Banner3.png" alt="Produto destaque">
+    </div>
+
+  </div>
+
+</section>
+
+<!-- BENEFÍCIOS -->
+<section class="beneficios">
+
+  <div class="beneficio">
+    <i class="fas fa-truck"></i>
+    <h3>Frete Rápido</h3>
+    <p>Entrega para todo o Brasil</p>
+  </div>
+
+  <div class="beneficio">
+    <i class="fas fa-shield-alt"></i>
+    <h3>Compra Segura</h3>
+    <p>Seus dados protegidos</p>
+  </div>
+
+  <div class="beneficio">
+    <i class="fas fa-star"></i>
+    <h3>Qualidade Premium</h3>
+    <p>Produtos selecionados</p>
+  </div>
+
+  <div class="beneficio">
+    <i class="fas fa-headset"></i>
+    <h3>Suporte 24h</h3>
+    <p>Atendimento rápido</p>
+  </div>
+
+</section>
+
+<!-- PROVA SOCIAL -->
+<section class="reviews">
+
+  <h2>O que nossos clientes dizem</h2>
+
+  <div class="review-container">
+
+    <div class="review">
+      <p>"Produto chegou rápido e qualidade incrível!"</p>
+      <span>⭐⭐⭐⭐⭐</span>
+    </div>
+
+    <div class="review">
+      <p>"Melhor compra que fiz esse mês, recomendo!"</p>
+      <span>⭐⭐⭐⭐⭐</span>
+    </div>
+
+    <div class="review">
+      <p>"Site lindo e entrega super rápida."</p>
+      <span>⭐⭐⭐⭐⭐</span>
+    </div>
+
+  </div>
+
+</section>
+<section class="hero">
+
+  <div class="hero-text">
+    <h1>Seu estilo começa aqui</h1>
+    <p>Descubra produtos incríveis com qualidade e preço justo. Experiência moderna, rápida e responsiva.</p>
+
+    <div class="hero-buttons">
+      <a href="#" class="btn-primary">Comprar agora</a>
+      <a href="#" class="btn-secondary">Ver produtos</a>
+    </div>
+  </div>
+
+
+</header>
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>WendShop</h3>
+      <p>Projeto de e-commerce para portfólio com foco em experiência do usuário e interatividade.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </div>
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- MARCA -->
+    <div class="footer-col brand">
+      <h2>WendShop</h2>
+      <p>
+        Experiência moderna de e-commerce com foco em performance,
+        design e interatividade. Projeto desenvolvido para portfólio.
+      </p>
+
+      <div class="socials">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+
+    <!-- LINKS -->
+    <div class="footer-col">
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Novidades</a></li>
+      </ul>
+    </div>
+
+    <!-- AJUDA -->
+    <div class="footer-col">
+      <h4>Suporte</h4>
+      <ul>
+        <li><a href="#">Central de ajuda</a></li>
+        <li><a href="#">Política de troca</a></li>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Privacidade</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTATO -->
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <p><i class="fas fa-envelope"></i> contato@wendshop.com</p>
+      <p><i class="fas fa-phone"></i> (83) 99999-9999</p>
+
+      <!-- NEWSLETTER -->
+      <div class="newsletter">
+        <input type="email" placeholder="Seu email">
+        <button>Receber ofertas</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LINHA -->
+  <div class="footer-divider"></div>
+
+  <!-- PAGAMENTOS -->
+  <div class="footer-payments">
+    <span><i class="fab fa-cc-visa"></i></span>
+    <span><i class="fab fa-cc-mastercard"></i></span>
+    <span><i class="fab fa-cc-paypal"></i></span>
+    <span><i class="fas fa-barcode"></i></span>
+  </div>
+
+  <!-- COPYRIGHT -->
+  <div class="footer-bottom">
+    <p>© 2026 WendShop — Desenvolvido por você 🚀</p>
+  </div>
+
+</footer>
+<audio id="popSound" preload="auto">
+  <source src="https://www.soundjay.com/buttons/sounds/button-16.mp3" type="audio/mpeg">
+</audio>
+<script src="js/script.js" defer></script>
+
+</body>
+</html>
